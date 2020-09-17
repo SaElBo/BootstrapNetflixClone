@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- TODO: fix bottone-netflix overflow in telefono -->
+    <main class="h-100 ">
+      <div class="container-fluid bg-hero py-5">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-trasnsparent">
+              <a class="main-title" href="#">Netflix</a>
+
+              <button class="btn btn-danger btn-lg ml-auto">Accedi</button>
+            </nav>
+
+            <div class="container h-100 py-5 mt-5 text-center">
+              <div class="row">
+                <div class="col-12 text-center">
+                  <!-- Display piccoli -->
+                  <h1 class="text-white display-5 d-md-none">
+                    Film, serie TV e tanto altro. Senza limiti.
+                  </h1>
+                  <!-- Display grandi -->
+                  <h1 class="text-white display-3 d-none d-md-block">
+                    Film, serie TV e tanto altro. Senza limiti.
+                  </h1>
+                  <p class="text-white middle-text">
+                    Guarda ciò che vuoi ovunque. Disdici quando vuoi.
+                  </p>
+                  <p class="text-white small-text">
+                    Vuoi guardare Netflix? Inserisci l'indirizzo email per
+                    abbonarti o riattivare il tuo abbonamento.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="row align-items-center justify-content-center d-lg-none"
+              >
+                <div class="col-12 col-lg-6">
+                  <input type="text" class="w-100 " />
+                </div>
+                <div class="col-12 col-lg-6">
+                  <button class="btn btn-danger py-3 px-5 mt-3">
+                    Comincia<i class="fas fa-chevron-right ml-3"></i>
+                  </button>
+                </div>
+              </div>
+              <div class="row d-none d-lg-block">
+                <div class="col-12">
+                  <input type="text" class="w-75">
+                  <button class="btn btn-danger btn-netflix">Comincia<i class="fas fa-chevron-right ml-3"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <div class="container-fluid bg-main h-75">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-lg-6 text-white text-center text-ld-left m-auto"
+            >
+              <h2 class="display-4 text-bold my-5">
+                Goditi Netflix sulla tua TV.
+              </h2>
+              <p>
+                Guarda Netflix su smart TV, Playstation, Xbox, Chromecast, Apple
+                TV, lettori Blu-ray e molti altri dispositivi.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid bg-main h-75">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-lg-6 text-white text-center text-ld-left m-auto"
+            >
+              <h2 class="display-4 text-bold my-5">
+                Scarica le tue serie da guardare offline.
+              </h2>
+              <p>
+                Salva facilmente i tuoi preferiti così avrai sempre qualcosa da
+                guardare.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 my-3 order-first">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid bg-main h-75">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-12 col-lg-6 text-white text-center text-ld-left m-auto"
+            >
+              <h2 class="display-4 text-bold my-5">Guarda Netflix ovunque.</h2>
+              <p>
+                Cellulare, tablet, laptop e TV: scegli tu cosa usare per
+                guardare in streaming film e serie TV senza limiti e senza
+                spendere di più.
+              </p>
+            </div>
+            <div class="col-12 col-lg-6 my-3">
+              <img
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png"
+                class="img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid bg-main h-75 text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2 class="display-4 text-bold my-5">Domande frequenti</h2>
+            </div>
+
+            <!-- ACCORDION -->
+            <div class="col-12">
+              <div id="accordion">
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingOne">
+                    <div class="row justify-content-around">
+                      <div class="col-10">Cos'è Netflix?</div>
+                      <div class="col-2">
+                        <button
+                          class="btn text-white"
+                          data-toggle="collapse"
+                          data-target="#collapseOne"
+                          aria-expanded="true"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingOne">
+                    <div class="row justify-content-around">
+                      <div class="col-10">Quanto costa Netflix?</div>
+                      <div class="col-2">
+                        <button
+                          class="btn text-white"
+                          data-toggle="collapse"
+                          data-target="#collapseTwo"
+                          aria-expanded="true"
+                          aria-controls="collapseTwo"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="collapseTwo"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card bg-secondary">
+                  <div class="card-header" id="headingOne">
+                    <div class="row justify-content-around">
+                      <div class="col-10">Dove Posso Guardare Netflix?</div>
+                      <div class="col-2">
+                        <button
+                          class="btn text-white"
+                          data-toggle="collapse"
+                          data-target="#collapseTre"
+                          aria-expanded="true"
+                          aria-controls="collapseTre"
+                        >
+                          <i class="fas fa-plus"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    id="collapseTre"
+                    class="collapse show"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordion"
+                  >
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid. 3 wolf moon officia
+                      aute, non cupidatat skateboard dolor brunch. Food truck
+                      quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
+                      tempor, sunt aliqua put a bird on it squid single-origin
+                      coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                      helvetica, craft beer labore wes anderson cred nesciunt
+                      sapiente ea proident. Ad vegan excepteur butcher vice
+                      lomo. Leggings occaecat craft beer farm-to-table, raw
+                      denim aesthetic synth nesciunt you probably haven't heard
+                      of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 text-center mt-5">
+              <h3>
+                Vuoi guardare Netflix? Inserisci l'indirizzo email per abbonarti
+                o riattivare il tuo abbonamento.
+              </h3>
+              <div
+              class="row align-items-center justify-content-center d-lg-none"
+            >
+              <div class="col-12 col-lg-6  ">
+                <input type="text" class="w-100 " />
+              </div>
+              <div class="col-12 col-lg-6">
+                <button class="btn btn-danger py-3 px-5 mt-3">
+                  Comincia<i class="fas fa-chevron-right ml-3"></i>
+                </button>
+              </div>
+            </div>
+            <div class="row d-none d-lg-block">
+              <div class="col-12 ">
+                <input type="text" class="w-75">
+                <button class="btn btn-danger btn-netflix">Comincia<i class="fas fa-chevron-right ml-3"></i></button>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-main footer-text pt-4">
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-4 mx-auto">
+            <!-- Content -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+              Footer Content
+            </h5>
+            <p>
+              Here you can use rows and columns to organize your footer content.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto d-none d-lg-block">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto d-none d-lg-block">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="clearfix w-100 d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 mx-auto">
+            <!-- Links -->
+            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+            <ul class="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+
+      <hr />
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <p>Salvatore Boukaleb @hackademy18</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/85e1570e38.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
